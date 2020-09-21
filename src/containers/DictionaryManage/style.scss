@@ -1,0 +1,115 @@
+.company-info {
+
+}
+.company-container{
+  display: flex;
+  justify-content: space-around;
+  //border: 1px solid green;
+  .container-left{
+    margin-left:10px;
+    width:70%;
+    height:100vh-20;
+    background-color: #fff;
+    //border: 1px solid deeppink;
+     .top{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       padding-left:20px;
+       padding-right:20px;
+       height:50px;
+       background-color: #fff;
+       //border: 1px solid green;
+       :global{
+         .ant-input{
+           padding:0 !important;
+         }
+       }
+       .ant-input{
+         padding:0 !important;
+       }
+     }
+    .center{
+      height:86%;
+      background-color: #fff;
+      //border: 1px solid green;
+      margin-bottom: 10px;
+      .table-style-one .ant-table-tbody > tr > td,th{
+        padding:5px;
+      }
+    }
+    .bottom{
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      height:50px;
+      padding-left:20px;
+      background-color: #fff;
+      //border: 1px solid green;
+    }
+  }
+  .container-right{
+    margin-left:10px;
+    display: flex;
+    justify-content: space-between;
+    font-size:12px;
+    width:30%;
+    height:100vh-20;
+    //border: 1px solid blue;
+    background-color: #fff;
+    height:100vh-20;
+      .ant-table-tbody > tr > td{
+      padding:5px;
+    }
+    .ant-table-thead > tr > th{
+      padding: 3px 16px;
+    }
+    .ant-table-title{
+      padding: 3px 16px;
+    }
+    .container-right-basicInfo{
+      width:90%;
+    }
+    .container-right-menu{
+      width:10%;
+      //border: 1px solid green;
+      height:100vh-20;
+    }
+  }
+
+}
+.table-style-one{
+  :global{
+    .ant-table-tbody > tr > td{
+      padding:8px 10px;
+    }
+  }
+}
+.table-style-one{
+  .ant-pagination{
+    display: none;
+    //display: block;
+
+  }
+}
+.container-right-basicInfo{
+  .ant-pagination{
+    display: none;
+  }
+}
+.top{
+  .ant-select{
+    width: 160px !important;
+    .ant-select-selector{
+      display: flex;
+      align-items: center;
+      height: 23px;
+      border-radius: 2px;
+    }
+  }
+}
+.edit-add {
+  margin-top:5px;
+  display: flex;
+  justify-content: flex-end;
+}

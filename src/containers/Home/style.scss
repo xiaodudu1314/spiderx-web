@@ -1,0 +1,54 @@
+.home {
+  min-width: 1280px;
+
+  .home-content {
+    display: inline-flex;
+    flex-wrap: wrap;
+  }
+
+  .home-container {
+    width: calc(100vw - 240px);
+    height: calc(100vh - 50px);
+    overflow: auto;
+
+    .home-container-header {
+      width: 100%;
+      height: 35px;
+      margin-bottom: 10px;
+      background-color: #FCFDFF;
+      display: inline-flex;
+      flex-wrap: wrap;
+
+      .item {
+        width: 120px;
+        height: 30px;
+        margin: 5px 0 0 5px;
+        background-color: #FCFDFF;
+        display: inline-flex;
+        flex-wrap: wrap;
+        .item-text {
+          width: 90px;
+          line-height: 30px;
+          color: #666666;
+          font-size: 12px;
+          text-align: center;
+          font-family: PingFangSC-Regular, Microsoft YaHei;
+          cursor: pointer;
+        }
+
+        .anticon {
+          margin:5px 0 0 5px;
+          color: #CACACA;
+          cursor: pointer;
+        }
+      }
+
+      .item-active {
+        .item-text {
+          color: #407CD5;
+        }
+      }
+
+    }
+  }
+}

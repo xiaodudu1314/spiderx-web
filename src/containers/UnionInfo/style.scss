@@ -1,0 +1,90 @@
+.union-info{
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  //width:100vw;
+  height:100vh-12;
+  .left{
+    background-color:#fff;
+    //border: 1px solid green;
+    margin-left:10px;
+    margin-right:10px;
+    width:13%;
+    height:100vh-12;
+    .left-top-union{
+      height:9%;
+      //border: 1px solid green;
+    }
+    .left-bottom{
+      height:90%;
+      //border: 1px solid green;
+    }
+  }
+  .right{
+    //border: 1px solid green;
+    background-color:#fff;
+    width:86%;
+    height:100vh-12;
+  }
+}
+.left-top-menu{
+  display: flex;
+  justify-content:space-between;
+  font-weight:bold;
+  padding:2px 15px;
+}
+.icon-style{
+  display: flex;
+  justify-content:space-around;
+  width:60%;
+ border: 1px solid green;
+}
+.left-top-search{
+  display: flex;
+  justify-content: center;
+  .ant-input-affix-wrapper{
+    width:90%;
+  }
+}
+.left-bottom{
+  padding:5px 24px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  .ant-tree .ant-tree-switcher {
+    -ms-flex: none;
+    flex: none;
+    width: 12px;
+    height: 24px;
+    margin: 0;
+    line-height: 24px;
+    text-align: center;
+    cursor: pointer;
+  }
+}
+.union-table{
+  .ant-table-tbody > tr > td{
+    padding: 4px 0px !important;
+  }
+}
+.union-table-top{
+  padding:5px 25px;
+  display: flex;
+  justify-content:space-between;
+}
+.union-table-left{
+  display: flex;
+  justify-content:flex-start;
+}
+.implement-table{
+  margin-top:5px;
+  display: flex;
+  justify-content:space-between;
+  heigth:40px;
+  //border: 1px solid green;
+  padding:5px 25px;
+}
+.implement-table-top{
+  display: flex;
+  justify-content:flex-start;
+}
+

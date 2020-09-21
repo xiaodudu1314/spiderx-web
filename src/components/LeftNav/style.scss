@@ -1,0 +1,52 @@
+.left-nav {
+    width: 240px;
+    height: calc(100vh - 50px);
+    display: inline-flex;
+    flex-wrap: wrap;
+
+    .first-menu {
+        width: 40px;
+        height: 100%;
+        background: #E5ECF3;
+
+        .item {
+            width: 18px;
+            height: 18px;
+            margin: 18px 11px 0 11px;
+            cursor: pointer;
+
+            .anticon {
+                color: #999999;
+            }
+        }
+
+        .item-active {
+            .anticon {
+                color: #407CD5;
+            }
+        }
+    }
+
+    .second-menu {
+        width: 200px;
+        height: 100%;
+        background: #fff;
+
+        .item {
+            width: 199px;
+            height: 40px;
+            background-color: #fff;
+            padding-left: 15px;
+            line-height: 40px;
+            color: #333;
+            font-size: 14px;
+            font-family: PingFangSC-Regular, Microsoft YaHei;
+            cursor: pointer;
+        }
+
+        .item-active {
+            background-color: #407CD5 ;
+            color: #fff;
+        }
+    }
+}

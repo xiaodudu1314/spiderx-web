@@ -1,0 +1,86 @@
+.header {
+    width: 100%;
+    height: 50px;
+    background-color: #1A1E26;
+    .logo {
+        width: 120px;
+        height: 30px;
+        margin: 10px 0 0 30px;
+        float: left;
+    }
+    .user-div {
+        margin-right: 20px;
+        float: right;
+
+        .user-info {
+            height: 50px;
+            cursor: pointer;
+
+            .ant-avatar {
+                width: 27px;
+                height: 27px;
+                margin: 12px 10px 9px 0;
+                background-color:#ccc ;
+                border-radius: 50%;
+                float: left;
+                .anticon-user{
+                    margin: 5px 0 0 5px;
+                    color:#fff ;
+                }
+            }
+
+            .user-name {
+                float: left;
+                line-height: 50px;
+                color: #fff;
+                font-size: 14px;
+                font-family: PingFangSC-Regular, Microsoft YaHei;
+
+            }
+            .anticon-caret-down{
+                margin: 19px 0 0 2px;
+                float: left;
+                color:#9B9FA4
+            }
+
+        }
+    }
+}
+.user-info-popover {
+    width:100%;
+    .ant-popover-content {
+
+        .ant-popover-arrow {
+            background: #f8f8f8;
+        }
+
+        .ant-popover-inner-content {
+            padding: 0;
+
+            .user-dropdown-menu-item {
+                border-top: 1px solid #eee;
+            }
+        }
+    }
+
+    // 下拉菜单
+    .user-dropdown {
+        background: #fff;
+
+        .user-dropdown-menu-item {
+            height: 50px;
+            margin: 0 20px;
+            line-height: 50px;
+            font-size: 14px;
+            color: #333333;
+            cursor: pointer;
+
+            // 菜单项图标
+            .anticon {
+                margin-right: 10px;
+                font-size: 15px;
+                font-weight: normal;
+            }
+        }
+    }
+}
